@@ -1,1 +1,7 @@
-theme: jekyll-theme-cayman
+
+# theme: jekyll-theme-cayman
+remote-theme: pmarsceill/just-the-docs
+
+# You can override the markdown processor. defaults to GitHub's own CommonMark
+# https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-a-markdown-processor-for-your-github-pages-site-using-jekyll
+# markdown: kramdown
