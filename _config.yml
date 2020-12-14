@@ -5,3 +5,10 @@ theme: jekyll-theme-cayman
 # You can override the markdown processor. defaults to GitHub's own CommonMark
 # https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-a-markdown-processor-for-your-github-pages-site-using-jekyll
 # markdown: kramdown
+
+# Notes on Cayman theme
+# https://github.com/pages-themes/cayman
+title: "Title of site"
+description: "A test of GitHub pages"
+show_downloads: true
+google_analytics: "G-75N7B3KVRY"
