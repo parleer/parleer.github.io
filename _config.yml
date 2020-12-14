@@ -69,6 +69,8 @@ search:
 aux_links:
   "Aux link":
     - "//github.com/parleer/parleer.github.io"
+  "Aux link 2":
+    - "//github.com/parleer/parleer.github.io"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -146,6 +148,10 @@ just_the_docs:
       name: Tutorials
 
 
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
 compress_html:
   clippings: all
