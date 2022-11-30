@@ -1,13 +1,27 @@
 
 
-title: parleer
+title: ryanparlee.com
 description: A test of Github pages
 # baseurl: "/"
 # url: ""
 permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/"
-]
+exclude: 
+  - node_modules/
+  - "*.gemspec"
+  - "*.gem"
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - script/
+  - LICENSE.txt
+  - lib/
+  - bin/
+  - index.md_
+  - README.md
+  - Rakefile
+  - docs/tests/
+
 
 
 
@@ -66,11 +80,11 @@ search:
   button: false
 
 # Aux links for the upper right navigation
-aux_links:
-  "Aux link":
-    - "//github.com/parleer/parleer.github.io"
-  "Aux link 2":
-    - "//github.com/parleer/parleer.github.io"
+# aux_links:
+#   "Aux link":
+#     - "//github.com/parleer/parleer.github.io"
+#   "Aux link 2":
+#     - "//github.com/parleer/parleer.github.io"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -94,14 +108,14 @@ back_to_top_text: "Back to top"
 # Footer content
 # appears at the bottom of every page's main content
 # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust markup / liquid-based content.
-footer_content: "Copyright &copy; 2020 Ryan Parlee."
+footer_content: "" # "Copyright &copy; 2020 Ryan Parlee."
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
+gh_edit_link: false # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
 gh_edit_repository: "https://github.com/parleer/parleer.github.io" # the github URL for your repo
 gh_edit_branch: "master" # the branch that your docs is served from
@@ -119,6 +133,7 @@ ga_tracking_anonymize_ip: false # Use GDPR compliant Google Analytics settings (
 
 plugins:
   - jekyll-seo-tag # the jekyll-seo-tag plugin is included with the just-the-docs theme.
+  - jekyll-default-layout
 
 
 # Define Jekyll collections
@@ -135,17 +150,17 @@ just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
     # Reference the "docs" collection
-    docs:
-      # Give the collection a name
-      name: Documentation
-      # Exclude the collection from the navigation
-      # Supports true or false (default)
-      nav_exclude: false
-      # Exclude the collection from the search
-      # Supports true or false (default)
-      search_exclude: false
-    tutorials:
-      name: Tutorials
+    # docs:
+    #   # Give the collection a name
+    #   name: Documentation
+    #   # Exclude the collection from the navigation
+    #   # Supports true or false (default)
+    #   nav_exclude: false
+    #   # Exclude the collection from the search
+    #   # Supports true or false (default)
+    #   search_exclude: false
+    # tutorials:
+    #   name: Tutorials
 
 
 kramdown:
